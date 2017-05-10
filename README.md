@@ -1,7 +1,7 @@
 # Natural_Lanuage_Parser
 University AI assignment that translates Natural language (english) into a UNIX command
 
-The agent takes in english language parse it using contex free grammer (rules I'll place below )and returns the command that performs that action on the UNIX console.
+The agent takes in english language, parses it using contex free grammer (rules I'll place below) and returns the command that performs that action on the UNIX console.
 
 For example:
   
@@ -52,14 +52,21 @@ This extra understanding it without implementing another rule.
 
 • VP -> Verb NP
 
-Where:
+**Where:**
 
 S = Sentence
+
 NP = Noun Phrase
+
 VP = Verb Phrase
+
 Det = Determinate
+
 PP = Prepositional Phrase
+
 Adj = Adjective
+
 NP2 = 2nd Noun Phrase
+
 
 These rules can be used to break down sentences to grab important parts or check if the entred sentences are valid.
